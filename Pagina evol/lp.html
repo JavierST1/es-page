@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/82b66607f7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-light">
+        <div class="container">
+
+            <div class="row">
+                <a class="col-2 navbar-brand" href="#">
+                    <img src="./ims/logoEvolsoftJPG-removebg.png" alt="Bootstrap" width="90" height="90">
+                </a>
+
+            </div>
+
+            <ul class="col-10 nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto_num">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectores">SOFTWARE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-gold rounded-pill" href="#correo" type="submit">CONTACTANOS</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <header class="hero container">
+        <div class="row">
+            <div class="col-8 title left">
+                <h1>
+                    DESARROLLO DE SOFTWARE
+                </h1>
+                <h3>
+                    "Creamos soluciones para tu negocio o empresa"
+                </h3>
+            </div>
+            <div class="col-4 title right">
+                <img class="rounded-circle" src="./ims/ini2.jpg" alt="" width="200" height="200">
+            </div>
+        </div>
+    </header>
+    <!---galeria-->
+    <section class="galeria">
+        <div class="contenedor" id="sectores">
+            <h2 class="titulo">Sectores</h2>
+            <article class="galeria-cont">
+                <img src="./ims/comercial.jpeg" alt="">
+                <img src="./ims/restaurant.jpeg" alt="">
+                <img src="./ims/inmo.jpg" alt="">
+                <img src="./ims/talleres.jpeg" alt="">
+            </article>
+        </div>
+    </section>
+    <!---ventajas-->
+
+
+
+    <div class="container">
+        <div class="m-auto" style="width: 900px;">
+            <h2 class="my-5 text-center" style="color:#010631;">Nuestros sistemas abarcan una gran variedad de ambitos administrativos para los negocios
+            </h2>
+            <div class="d-flex justify-content-evenly mb-5">
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-cash-register"></i></div>
+                    <p>Ventas</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <p>Compras</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                    <p>Inventarios</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-clipboard-check"></i></div>
+                    <p>Estadisticas</p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-around mb-5">
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-desktop"></i></div>
+                    <p>Calidad</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-shop"></i></div>
+                    <p>Sucursales</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-money-check-dollar"></i></div>
+                    <p>Presupuestos</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-credit-card"></i></div>
+                    <p>Cuentas por pagar</p>
+                </div>
+                <div class="col-sm-auto">
+                    <div class="icons"><i class="fa-solid fa-building-columns"></i></div>
+                    <p>Cuentas por cobrar</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!---info-->
+    <section class="info">
+        <div class="contenedor row">
+            <div class="col-6" id="nosotros">
+                <img class="rounded-circle" src="./ims/ini3.jpg" alt="" width="200" height="200">
+            </div>
+            <div class="col-6">
+                <h2 class="titulo">Desarrollo de software a la medida</h2>
+                <p>Damos acompañamiento y soporte completo a los clientes, ya sea que ellos traigan una idea o nosotros le damos propuestas, durante el desarrollo hasta el termino del proyecto, de igual manera damos apoyo en capacitacion.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo" id="correo">Solicitar información</h2>
+            <form class="form">
+                <div class="form" method="post" action="/forms.php">
+                    <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre" requerid>
+                    <input class="input" type="email" name="email" id="email" placeholder="Email" requerid>
+                    <textarea class="input" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" requerid></textarea>
+                    <input class="input" type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+        <section class="cards contenedor" id="contacto_num">
+            <div class="content-cards">
+                <article class="card p-3">
+
+                    <h3>Dirección</h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://www.google.com.mx/maps/place/EvolSoft/@24.0144547,-104.6465441,17z/data=!3m1!4b1!4m6!3m5!1s0x869bb7f02cc217c9:0x58926f35a8755cbd!8m2!3d24.0144547!4d-104.6443554!16s%2Fg%2F11fzz7tjk_" class="text-decoration-none">
+                        C. Verónica Castro #100 Col. Valle del Guadiana, Durango, Dgo.
+                    </a>
+                </article>
+                <article class="card p-3">
+
+                    <h3>Contacto</h3>
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="text-start">
+                        <a href="mailto:evolsoftmx@gmail.com?Subject=Hola%20quiero%20pedir%20informes">Email: <br> evolsoftmx@gmail.com</a>
+                    </p>
+                    <p class="text-start">
+                        Teléfonos: <br> +52 6181588032 <br> +52 6182565806
+                    </p>
+
+
+
+                </article>
+                <article class="card p-3">
+
+                    <h3>Nuestra redes</h3>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <p>
+                        <a href="https://www.facebook.com/evolsoft14/"><i class="fa-brands fa-facebook-f me-3 text-black"></i></a>
+
+                        <i class="fa-brands fa-twitter ms-3 text-black"></i>
+                    </p>
+
+
+                </article>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+    <!--Boton wp-->
+    <a class="B_WP text-decoration-none d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=(aquí el número de telefono sin el +)&text=Hola, buen dia quiero comunicarme con un asesor" target="_blank">
+        <i class="fa-brands fa-whatsapp fs-1"></i>
+    </a>
+
+
+    <div class="card">
+        <div class="card-body">
+            © 2020 Evolsoft. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+
+</html>
